@@ -19,7 +19,7 @@ public class CourseApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry reg){
-				reg.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "POST","PUT", "DELETE");;
+				reg.addMapping("/**").allowedOrigins("*").allowedMethods("GET", "POST","PUT", "DELETE");
 			}
 			
 		};
