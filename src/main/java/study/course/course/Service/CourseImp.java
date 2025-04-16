@@ -58,7 +58,7 @@ public class CourseImp implements CourseServise {
     @Override
     public Course deleteCourse(long long1) {
         Course c=null;
-        long a=long1;
+        //long a=long1;
         // for(Course course:list){
         //     if(a==course.getId()){
         //         c=course;
